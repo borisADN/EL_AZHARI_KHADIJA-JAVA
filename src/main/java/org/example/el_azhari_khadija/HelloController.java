@@ -73,6 +73,7 @@ public class HelloController {
             preparedStatement.close();
             connection.close();
         } catch (SQLException e) {
+//            System.out.println('e');
             e.printStackTrace();
         }
         return false;
